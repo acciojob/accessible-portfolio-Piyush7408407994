@@ -8,6 +8,36 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!-- Navigation Bar with ARIA Role -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#about">About</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading with ARIA Role -->
+  <h1 role="heading">Welcome to My Portfolio</h1>
+
+  <!-- Image with alt text and ARIA role -->
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/6/60/Fennec_Fox.jpg" 
+    alt="Fennec Fox sitting on a rock"
+    role="img"
+    width="500"
+  >
+
+  <!-- Brief Description -->
+  <p id="about">Hi! I’m a web developer passionate about building accessible websites and user-friendly interfaces.</p>
+
+  <!-- List with ARIA Roles -->
+  <h2 role="heading" id="projects">My Skills</h2>
+  <ul role="list">
+    <li role="listitem">HTML & CSS</li>
+    <li role="listitem">JavaScript & React</li>
+    <li role="listitem">Node.js & MongoDB</li>
+  </ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
